@@ -1,5 +1,8 @@
 package org.sample;
 
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 public class Michael {
 	public static void main(String[] args) {
 		
@@ -19,6 +22,16 @@ public class Michael {
 		
 		String st = "Nandhakumar";
 		System.out.println(st);
+		
+		Set se = new LinkedHashSet();
+		
+		se.add(1200);
+		se.add("Have a  nice day");
+		se.add(45);
+		se.add('o');
+		
+		System.out.println(se);
+		
 
 		
 		
